@@ -1,12 +1,31 @@
-VALLÉE ENCHANTÉE — VERSION 3.0
-Compagnon non officiel, gratuit, mobile + ordinateur.
+VALLÉE ENCHANTÉE — VERSION 4.0 (21 novembre 2026)
 
-NOUVEAUTÉ : journal de quêtes avec 8 quêtes identifiées (titres anglophones officiels), étapes de suivi reformulées, filtres et progression par étape ; création de quêtes personnelles (max. 300). Chaque quête vérifiée renvoie vers une fiche explicative du wiki communautaire. Les quêtes du Ranch et de The Keepsake Sea ne sont pas encore documentées dans ce journal : crée tes propres fiches en attendant.
+Application compagnon NON OFFICIELLE et gratuite pour Disney Dreamlight Valley.
 
-INSTALLATION : Décompresser ; ouvrir index.html dans un navigateur sur ordinateur. Pour le téléphone, héberger les fichiers en HTTPS sur GitHub Pages ou Cloudflare Pages. Ouvrir l'URL sur mobile puis Ajouter à l'écran d'accueil.
+INSTALLATION SUR TON GITHUB EXISTANT (iPhone + Safari)
+1. Sauvegarde ta progression depuis la rubrique « Mes données » de la V3.
+2. Ouvre github.com/morganeltr50/vallee-enchantee dans Safari, puis onglet Code.
+3. Ouvre index.html, appuie sur le crayon (Modifier) et remplace le fichier existant par le NOUVEAU index.html (ou charge-le avec Add file > Upload files et confirme le remplacement si proposé).
+4. Remplace aussi sw.js. Si tu utilises les fichiers d'icône V3 sous des noms traduits, ajoute icon.svg et manifest.webmanifest de ce ZIP sous leurs NOMS EXACTS, car index.html attend ces noms.
+5. Garde la branche main et le dossier / (racine) dans Paramètres > Pages.
+6. Ouvre https://morganeltr50.github.io/vallee-enchantee/ et recharge. Si une ancienne version reste affichée, ferme l'application de l'écran d'accueil et rouvre Safari : le cache hors ligne peut mettre du temps à actualiser la V4.
 
-MISE À JOUR : depuis la V1/V2, exporter d'abord Mes données > Exporter ma sauvegarde, puis importer la sauvegarde dans la V3. Le stockage local reste compatible sur la même origine, mais une URL différente utilise un stockage séparé. V3 importe les sauvegardes V1, V2 et V3.
+NE SUPPRIME PAS LE DÉPÔT, ET NE CRÉE PAS UN NOUVEAU SITE.
+La clé de stockage locale reste « vallee-enchantee-v1 » pour préserver les sauvegardes V1/V2/V3 sur la même adresse et le même appareil. L'import reconnaît les exports des versions 1 à 4. La sauvegarde automatique n'est PAS synchronisée entre appareils.
 
-IMPORTANT : contenu non exhaustif, quêtes et étapes reformulées et simplifiées pour le suivi, non guides détaillés garantis exacts. Aucun DLC ou jeu payant inclus. Sauvegarde locale, aucune synchronisation entre appareils.
+V4 : navigation animaux et horaires (heure locale du téléphone), nourrissage, culture et minuteurs, recettes vérifiées, carnet des personnages, tâches du jour, courses. Conserve catalogue et journal V3.
 
-PUBLICATION GITHUB PAGES : créer un dépôt public, mettre les 4 fichiers à la racine, dans Settings > Pages sélectionner Deploy from a branch, main / root. L'installation hors ligne est possible après un premier chargement via HTTPS.
+IMPORTANT — LA LISTE N'EST PAS EXHAUSTIVE :
+• Certaines nouvelles variantes de The Keepsake Sea n'ont pas encore d'horaire confirmé.
+• Les recettes fournies représentent un choix vérifié, pas l'intégralité du jeu ; les ressources, prix, énergie, plantes et quêtes sont aussi en cours d'enrichissement.
+• Les cadeaux favoris changent selon le jour et la partie : note-les toi-même.
+• Les horaires des créatures sont en heure locale, et des horaires peuvent dépendre de la météo.
+• Les minuteurs agricoles n'envoient pas de notification et ne remplacent pas les arrosages requis.
+
+Sources consultables dans l'app :
+https://dreamlightvalleywiki.com/Critters
+https://dreamlightvalleywiki.com/Gardening
+https://dreamlightvalleywiki.com/Cooking
+https://dreamlightvalleywiki.com/Keepsake_Sea
+
+Une application non officielle n'accorde aucun accès aux DLC payants et n'est pas affiliée à Disney / Gameloft.
