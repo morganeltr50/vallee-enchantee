@@ -1,4 +1,4 @@
-const CACHE='vallee-enchantee-v12';
+const CACHE='vallee-enchantee-v13';
 const ASSETS=['./','./index.html','./icon.svg','./manifest.webmanifest'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)));self.skipWaiting()});
 self.addEventListener('activate',e=>{e.waitUntil((async()=>{const keys=await caches.keys();await Promise.all(keys.filter(k=>k.startsWith('vallee-enchantee-')&&k!==CACHE).map(k=>caches.delete(k)));await self.clients.claim()})())});

@@ -1,7 +1,18 @@
-VALLÉE ENCHANTÉE V12 — IMPORT DE CAPTURES MULTIPLATEFORME
+VALLÉE ENCHANTÉE V13 — IMPORT DE CAPTURES CORRIGÉ
 
-Mise à jour : remplacez index.html, sw.js, icon.svg, manifest.webmanifest sur GitHub Pages. Conservez votre dépôt. Avant la mise à jour, exportez votre sauvegarde via Mes données.
+Nouveautés :
+- correction d’un problème empêchant parfois la sélection d’une image
+- instructions pour Switch, Switch 2, PlayStation, Xbox, PC et Mac
+- confirmation renforcée et compteur des éléments sélectionnés
+- navigation et sauvegarde héritées des versions précédentes
 
-NOUVEAU : Menus > Importer mes captures. Switch/Switch 2/PC/PlayStation/Xbox/Apple. Les captures restent dans le navigateur ; la reconnaissance de texte (bêta, facultative) nécessite Internet au premier chargement et utilise Tesseract.js dans le navigateur. Vous pouvez saisir les titres manuellement. Seules les cases que vous sélectionnez puis confirmez changent la progression locale. Aucune récupération de sauvegarde cloud Gameloft ni compte tiers. Les données du catalogue sont partielles.
+INSTALLATION :
+1. Dans ton application actuelle, va dans Mes données et EXPORTER ta sauvegarde JSON.
+2. Remplace index.html, sw.js, icon.svg et manifest.webmanifest à la racine de ton dépôt GitHub Pages.
+3. Actualise la page et vérifie le nouvel onglet « Importer mes captures ».
+4. Sur iPhone, si l’ancienne version reste affichée, ferme puis rouvre l’application ou relance Safari.
 
-CONFIDENTIALITÉ : le traitement local ne stocke pas les captures, mais le téléchargement de bibliothèques externes nécessite une connexion. Ne téléversez pas de captures contenant des données privées sur d’autres services.
+PRÉCAUTIONS :
+Le texte extrait d’une capture n’est qu’une proposition ; il faut confirmer les éléments réellement terminés.
+La lecture de texte est expérimentale et télécharge un composant externe à la première utilisation ; aucune synchronisation cloud Gameloft n’est intégrée.
+Les images ne sont pas conservées dans la sauvegarde exportée.
