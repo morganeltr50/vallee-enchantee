@@ -1,7 +1,7 @@
 {
-  "name": "Vallée Enchantée V13",
+  "name": "Vallée Enchantée — Édition complète",
   "short_name": "Vallée Enchantée",
-  "description": "Application compagnon non officielle et gratuite pour Disney Dreamlight Valley",
+  "description": "Guide et carnet non officiel Disney Dreamlight Valley : menus, ressources, quêtes, captures et progression personnelle",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

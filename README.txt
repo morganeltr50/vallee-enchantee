@@ -1,18 +1,15 @@
-VALLÉE ENCHANTÉE V13 — IMPORT DE CAPTURES CORRIGÉ
+VALLÉE ENCHANTÉE — ÉDITION COMPLÈTE (NOVEMBRE 2026)
 
-Nouveautés :
-- correction d’un problème empêchant parfois la sélection d’une image
-- instructions pour Switch, Switch 2, PlayStation, Xbox, PC et Mac
-- confirmation renforcée et compteur des éléments sélectionnés
-- navigation et sauvegarde héritées des versions précédentes
+Une seule édition à mettre à jour : même URL GitHub Pages, aucun nouveau dépôt ni nouvelle application à installer.
 
-INSTALLATION :
-1. Dans ton application actuelle, va dans Mes données et EXPORTER ta sauvegarde JSON.
-2. Remplace index.html, sw.js, icon.svg et manifest.webmanifest à la racine de ton dépôt GitHub Pages.
-3. Actualise la page et vérifie le nouvel onglet « Importer mes captures ».
-4. Sur iPhone, si l’ancienne version reste affichée, ferme puis rouvre l’application ou relance Safari.
+INSTALLATION SUR IPHONE / GITHUB PAGES
+1. Dans l’application actuelle : Mes données > Exporter. Sauvegardez le fichier JSON dans Fichiers.
+2. Décompressez cette archive.
+3. Dans votre dépôt GitHub, remplacez exactement : index.html, sw.js, icon.svg, manifest.webmanifest. N’envoyez pas le ZIP tel quel.
+4. Conservez le nom du dépôt et la configuration Pages (main, /racine).
+5. Ouvrez votre URL habituelle en Safari, rechargez, puis relancez l’icône de l’écran d’accueil. Le cache peut garder brièvement l’ancienne interface.
+6. Vérifiez les données personnelles ; si besoin, restaurez le fichier JSON via Mes données.
 
-PRÉCAUTIONS :
-Le texte extrait d’une capture n’est qu’une proposition ; il faut confirmer les éléments réellement terminés.
-La lecture de texte est expérimentale et télécharge un composant externe à la première utilisation ; aucune synchronisation cloud Gameloft n’est intégrée.
-Les images ne sont pas conservées dans la sauvegarde exportée.
+NOUVEAUTÉS : assistant de préparation des recettes et quêtes, calendrier des animaux par jour, contrôle local des données et export immédiat de sauvegarde. Toutes les rubriques V14 restent disponibles.
+
+LIMITES IMPORTANTES : cette édition regroupe les fonctionnalités développées, mais les catalogues du jeu et des DLC ne sont PAS exhaustifs. Les prix, horaires, quêtes et recettes hérités ne sont pas intégralement vérifiés ; consultez les sources depuis l’application. Aucune connexion au cloud Gameloft, à Nintendo, Xbox ou PlayStation. La reconnaissance des captures reste expérimentale, nécessite validation manuelle. Aucun abonnement ni mot de passe de jeu requis.
