@@ -1,11 +1,7 @@
-Vallée Enchantée V10 — refonte navigation et correction du journal des quêtes.
+VALLÉE ENCHANTÉE V12 — IMPORT DE CAPTURES MULTIPLATEFORME
 
-Sauvegarde obligatoire avant mise à jour : dans Mes données, exporter la sauvegarde JSON.
+Mise à jour : remplacez index.html, sw.js, icon.svg, manifest.webmanifest sur GitHub Pages. Conservez votre dépôt. Avant la mise à jour, exportez votre sauvegarde via Mes données.
 
-Remplace sur GitHub Pages les fichiers index.html, sw.js, icon.svg et manifest.webmanifest, sans modifier leur nom.
+NOUVEAU : Menus > Importer mes captures. Switch/Switch 2/PC/PlayStation/Xbox/Apple. Les captures restent dans le navigateur ; la reconnaissance de texte (bêta, facultative) nécessite Internet au premier chargement et utilise Tesseract.js dans le navigateur. Vous pouvez saisir les titres manuellement. Seules les cases que vous sélectionnez puis confirmez changent la progression locale. Aucune récupération de sauvegarde cloud Gameloft ni compte tiers. Les données du catalogue sont partielles.
 
-Compatibilité des sauvegardes : même clé locale et même structure que V9.
-
-Nouveautés : menu mobile complet, raccourcis d’accueil, correctif écran de quêtes vide, zone tactile plus lisible, mise en cache V10.
-
-Limites : contenus encyclopédiques encore incomplets ; les fiches existantes ne sont pas toutes vérifiées individuellement.
+CONFIDENTIALITÉ : le traitement local ne stocke pas les captures, mais le téléchargement de bibliothèques externes nécessite une connexion. Ne téléversez pas de captures contenant des données privées sur d’autres services.
