@@ -32,3 +32,8 @@ https://dreamlightvalleywiki.com/Meals
 Application indépendante et non officielle, sans affiliation à Disney ou Gameloft.
 
 MISE À JOUR 23/11/2026 — À faire par défaut : quêtes, fiches, tâches ; historique consultable dans Terminé(e)s. Nouvel index par personnage non exhaustif, avec suivi manuel et guides Wiki. Importer ses anciennes sauvegardes reste possible ; exporter avant mise à jour.
+
+
+CORRECTION CATALOGUE 24/11/2026 : le Grand Catalogue affiche par défaut TOUTES LES FICHES, même terminées. Dans le Journal des quêtes, le filtre À FAIRE reste actif. Aucune donnée utilisateur n’est supprimée. Remplacez index.html et sw.js dans votre dépôt GitHub et sauvegardez votre progression avant la mise à jour.
+
+Correction : le Grand Catalogue apparaît à nouveau. Aucune sauvegarde n’est modifiée. Exportez vos données avant de remplacer les fichiers.
