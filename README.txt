@@ -1,15 +1,34 @@
-VALLÉE ENCHANTÉE — ÉDITION COMPLÈTE (NOVEMBRE 2026)
+VALLÉE ENCHANTÉE — ÉDITION COMPLÈTE (mise à jour groupée 22/11/2026)
 
-Une seule édition à mettre à jour : même URL GitHub Pages, aucun nouveau dépôt ni nouvelle application à installer.
+À mettre sur GitHub Pages à la racine du dépôt :
+- index.html
+- sw.js
+- icon.svg
+- manifest.webmanifest
 
-INSTALLATION SUR IPHONE / GITHUB PAGES
-1. Dans l’application actuelle : Mes données > Exporter. Sauvegardez le fichier JSON dans Fichiers.
-2. Décompressez cette archive.
-3. Dans votre dépôt GitHub, remplacez exactement : index.html, sw.js, icon.svg, manifest.webmanifest. N’envoyez pas le ZIP tel quel.
-4. Conservez le nom du dépôt et la configuration Pages (main, /racine).
-5. Ouvrez votre URL habituelle en Safari, rechargez, puis relancez l’icône de l’écran d’accueil. Le cache peut garder brièvement l’ancienne interface.
-6. Vérifiez les données personnelles ; si besoin, restaurez le fichier JSON via Mes données.
+CORRECTIONS DE CETTE MISE À JOUR
+- Suppression des grands blocs d'accueil dans les pages secondaires
+- Des annonces officielles 2026-2027 sont visibles dans Événements, même sans tâches personnelles
+- Accès à l'index des quêtes depuis le journal
+- Améliorations de l'affichage mobile, du texte français et de la lisibilité
+- Nouvelle version du cache hors ligne
 
-NOUVEAUTÉS : assistant de préparation des recettes et quêtes, calendrier des animaux par jour, contrôle local des données et export immédiat de sauvegarde. Toutes les rubriques V14 restent disponibles.
+IMPORTANT : Le catalogue reste partiel (les quêtes, recettes et autres collections ne sont pas exhaustives).
+Les informations « à confirmer » ne doivent pas être considérées comme vérifiées.
+Les sauvegardes ne sont PAS lues depuis le cloud Gameloft. La progression est enregistrée localement.
 
-LIMITES IMPORTANTES : cette édition regroupe les fonctionnalités développées, mais les catalogues du jeu et des DLC ne sont PAS exhaustifs. Les prix, horaires, quêtes et recettes hérités ne sont pas intégralement vérifiés ; consultez les sources depuis l’application. Aucune connexion au cloud Gameloft, à Nintendo, Xbox ou PlayStation. La reconnaissance des captures reste expérimentale, nécessite validation manuelle. Aucun abonnement ni mot de passe de jeu requis.
+MISE À JOUR SUR IPHONE
+1. Dans l'ancienne application, exporter « Mes données » avant toute modification.
+2. Dans Safari sur GitHub, remplacer les 4 fichiers cités ci-dessus dans le même dépôt public et la même branche main.
+3. Vérifier GitHub Pages (Settings / Pages), puis rouvrir l'application.
+4. Si besoin, fermer l'application installée et la rouvrir ; si elle semble ancienne, vider les données du site uniquement après avoir exporté votre sauvegarde.
+5. Importer la sauvegarde JSON depuis « Mes données » si nécessaire.
+
+Sources principales : https://disneydreamlightvalley.com/fr/news/2026ShowcaseHighlights
+https://disneydreamlightvalley.com/fr/news/update-nov-18-2026
+https://dreamlightvalleywiki.com/Quests
+https://dreamlightvalleywiki.com/Meals
+
+Application indépendante et non officielle, sans affiliation à Disney ou Gameloft.
+
+MISE À JOUR 23/11/2026 — À faire par défaut : quêtes, fiches, tâches ; historique consultable dans Terminé(e)s. Nouvel index par personnage non exhaustif, avec suivi manuel et guides Wiki. Importer ses anciennes sauvegardes reste possible ; exporter avant mise à jour.
